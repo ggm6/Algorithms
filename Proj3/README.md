@@ -1,5 +1,7 @@
+# Seam Carving
+
 Garrett McDonnell
-Algorithms Project 3 - Seam Carving
+Algorithms Project 3
 
 Compile: g++ Proj3.cpp -o Proj3
 Run: ./Proj3 bug.pgm 10 5
