@@ -1,4 +1,4 @@
-#Convex Hull
+# Convex Hull
 
 Name: Garrett McDonnell
 Algorithms Project 2
