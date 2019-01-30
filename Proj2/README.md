@@ -4,6 +4,7 @@ Name: Garrett McDonnell
 Algorithms Project 2
 
 How to Run
+
 1. Make sure both ConvexHall_GUI.java and my main.cpp files are in the same folder when you compile and run.
 2. In ConvexHull_GUI.java, in main(), make sure boolean generateData is set to true to write test.txt.
 3. Make sure for ConvexHull_GUI.java, in main(), testFileGen() has the desired shape and number of points set for writing to file.
@@ -22,6 +23,7 @@ How to Run
 
 
 Explanation
+
 I use the Jarvis March, Graham Scan, and Quickhull Algorithm implementations from GeeksforGeeks.  I wrote my own Point class to use with these functions.  I also
 reconfigured the implementations to accept STL vectors of Point objects, instead of arrays or sets.  I also altered the implementations so that only the extremes 
 of each vertex of the hull are added to the hull.  So, for instance, a rectangular hull can only contain 4 points, any points that sit on the 4 lines are not added
